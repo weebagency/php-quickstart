@@ -2,5 +2,11 @@
 
 $loader = require __DIR__ . '/vendor/autoload.php';
 
+use TestApp\App;
 
-$app = App\App::Bootstrap();
+App::Bootstrap();
+
+
+
+
+
